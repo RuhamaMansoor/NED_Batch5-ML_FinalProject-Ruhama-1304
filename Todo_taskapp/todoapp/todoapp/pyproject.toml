@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "todoapp"
+version = "0.1.0"
+description = "The todoapp is a comprehensive to-do list management system designed as a learning project for machine learning. This application aims to provide users with an intuitive interface for managing tasks while integrating advanced features powered by machine learning. The project leverages modern web development frameworks and tools, including FastAPI for backend development and Streamlit for the frontend, with data persistence handled by PostgreSQL."
+authors = ["syedaromi <141348046+syedaromi@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+sqlmodel = "^0.0.19"
+uvicorn = "^0.30.1"
+streamlit = "^1.36.0"
+pydantic = "^2.7.4"
+pydemic = "^2020.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
